@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "listLab",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
