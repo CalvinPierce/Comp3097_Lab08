@@ -7,6 +7,10 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
+    path: 'task/:id',
+    loadChildren: () => import('./view-task/view-task.module').then( m => m.ViewTaskPageModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
